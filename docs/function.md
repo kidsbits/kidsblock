@@ -1,35 +1,55 @@
 
-# 软件常用功能
-### 1. 硬件的选择
-开启软件后默认的界面是Scratch动画编程，如果这时你不想跟任何硬件连接，就不必要切换别的界面，这是跟原生Scratch3.0界面一样。
+# kidsblock Start-up
+### 1. Select a Hardware
+By default, the main interface is Scratch animation programming. At this time, if there is no device connected, you do not need to shift the interface, which is the same as that of Scratch3.0.
 
-![Img](assets/e5152bbcaa6f939c69b6e66d74e6b04a.png)
+When you want to link a hardware to your computer, you need to click ![image-20230530153449783](media/image-20230530153449783.png)select one: 
 
-当要选择硬件编程或硬件跟动画实时互动编程时，就要选择硬件，如图：
-![Img](assets/81644d71ee87f1d91e0885cc3d704e2c.png)
+![Img](/media/f05df4212cf062c44ec0aa21d2091edc.png)
 
-选择硬件对应的串口
+![Img](/media/b068e878b50569da4f69cca3cd3836ba.png)
+
+And select a corresponding serial port: 
+
+![Img](/media/91cba014b06aa8fb3806fb4522bc1122.png)
+
+After selecting hardware, it will automatically jump to the selection of programming language and serial port (COM). Choose the one corresponding to the hardware. 
+
+Pay attention that do not open software with multiple serial ports, otherwise you may not find port because it is occupied by other applications, and the driver will also be activated unsuccessfully.
+
+## 2. Realtime Mode
+In realtime mode, it integrates animation and hardware programming. When any condition is met, the animation or hardware makes the conditional action. Before that, please remember to download firmware. 
+
+![Img](/media/ac35c8e390ba36092266b86539b75ce1.png)
+
+## 3. Upload Mode
+In upload mode, programs can be saved in hardware to be executed. 
+
+![Img](/media/2ee4f06eb9291d8a93a625c521d0f50e.png)
+
+Firstly we select hardware and connections (same as Realtime mode). In this mode, the matters are only about mainboard or modules, and it has nothing to do with animations. 
+
+Generally, there are some basic functional blocks on the left bar, or you may click ![image-20230530154436545](media/image-20230530154436545.png)to extend more functions. 
+
+![Img](/media/0ef5d68cb5c84fe8f88334fc26c9a5a3.png)
+
+Now you can choose an extension:
+
+![Img](/media/b2cc3b049e522e097f62982d692bf162.png)
+
+When you finish a code, click **Upload**. 
+
+At this time, please ensure that the hardware connection and logic/definition of the program are correct, otherwise it will fail to be uploaded and an error will occur during compilation.
+
+**NOTE**: The compilation and uploading speed are impacted by the complexity of programs as well as the configuration of your computer. If the communication fails to reach hardware for a long time, it will automatically stop. Under this condition, please check the stability of the hardware.
+
+![Img](/media/c067296e8a5a0bec2f75eaad45a3412c.png)
+
+![Img](/media/e9c08b474e159b18e7941791bef5ed90.png)
 
 
-![Img](assets/300a32944b1583d2c46cce96e4c59485.png)
 
-在选择对应的硬件后会自动跳转到编程语言的选择及串口硬件（COM），这里选择在要跟硬件驱动的一样，同时注意不要开启多个有串口应用的软件，不然你找不到可能是被别的软件占用了端口，或没有驱动成功。
 
-## 2. 实时模式
-实时模式：可以与动画互动编程，比如当硬件按下程序设定的按钮时，动画做出动作反应，或动画达到编程条件时戏驱动硬件动作。
-此模式运行前要下载软件对应的硬件固件，如图：
-![Img](assets/88586053d4b57640d4254d1dd202357c.png)
 
-## 3. 上传模式
-上传模式：可以将程序完全的跟其它IDE一样上传到硬件内永久保存运行。
-![Img](assets/8d452d1dc8228a372c9b404212756061.png)
-此模式下也一样要先选择对应的硬件，操作与实时模式相同。当切换到上传模式时只有对硬件主板或模块的编程，此时跟动画是无任何关系了。
-通常当你选择一个硬件主板后会有一些常用的主板编程功能在左侧，如果要更多的模块你可以选择软件左下角的加号添加功能，如图：
-![Img](assets/e3b62b98e595980c51a40cd2e4f0f7a5.png)
 
-这时进入了模块选择，对应的编程块也会自动添加在左侧的编程列表最下面，如图：
-![Img](assets/8aceb19282663ba56b9ec9ea94976ff4.png)
 
-上传程序：当一个程序编程写完成后，可以点软件上面功能键**上传**，注意这时要保证硬件连接是否正常，程序的逻辑或相关变量定义正确性，否则都不能上传或在编译时提示程序逻辑的错误。（编译的过程及上传速度与程序的复杂程度及电脑配置有关，如果长时间与硬件达不成上传通讯会自动停止，这时请检查硬件的稳定性）
-![Img](assets/36a8e62a791967a325a6e4d8f54e8464.png)
-![Img](assets/46f67151d282801c9b6aa8999a0805b5.png)

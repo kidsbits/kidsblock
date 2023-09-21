@@ -1,15 +1,15 @@
 
-# 图形化编程，入门门槛低。
+# Graphical programming with a low barrier to entry
 ![](assets/kidsblock.gif)
 
-# 支持主流开源硬件平台，可脱机运行。
+# Support mainstream open source hardware platforms in offline state
 
 ![](assets/hardware.gif)
 
-# 支持海量电子模块
+# Support multiple electronic modules
 
 ![](assets/sensor.gif)
 
-# 自动转换C语言代码
+# Automatically convert C language code
 
 ![](assets/code.gif)

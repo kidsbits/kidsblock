@@ -1,25 +1,34 @@
-#  实时模式编程
-实时（互动）模式是指动画编程与硬件编程结合，在任一条件满足时，动画或硬件做出条件的动作，就是电脑上的动画与连接电脑的硬件相互通信，数据共享融合。
+# Realtime Mode
+Realtime mode integrates animation and hardware programming. When any condition is met, the animation or hardware makes the conditional action. They communicate with each other to share data.
 
-**注：**
-* 实时模式在选硬件时应该选**Arduino**编程语言，并正确的选择自己连接的硬件COM串口的端口号，并确认是在**实时模式**下！
-* 第一次连接硬件时要在**实时模式**点**上传固件**，上传固件是将一个程序能让硬件跟软件动画互动的程序输入到硬件主板上，让它们之间建立互通的协议，以达成交互数据的目的。
-* 下面我们以**UNO PLUS**主板为例，快速学习**实时模式**的应用
+**NOTE:**
 
-例：**当按下键盘空格键时，动画人说“你按下了空格”，同时发出击鼓的声音，而硬件这边也同时会互动亮起2号灯2秒后再熄灭。**
+* In realtime mode, please choose **Arduino** programming language when selecting hardware. Do connect the correct COM Serial Port and make sure the mode is **Realtime**! 
+* In realtime mode, when connecting hardware for the first time, remember to **unload firmware** to load a code on mainboard to make interaction between hardware and software, so that data are shared. 
+* We will demonstrate the application of **Realtime** mode on Qihu C02 Mini Mainboard.
 
-选择**UNO PLUS 开发板**
-![Img](assets/0b2e15b8832e33aa14cf838845c4c2b3.png)
-选择编程语言为Arduino
+**When pressing the space key, the Sprite say "You pressed space!" and play drum; meanwhile, LED 2 will light up for 2s and then go off. **
 
-选择COM4连接主板（不同的电脑这个com号不一样，具体请查看安装教程部分的说明）
-![Img](assets/3508a99388e861fdd6af4db8fb4fd469.png)
+Select **ESP32plus development board**
 
-确认连接后，返回编辑器
-![Img](assets/1d94c27563a09201f4c703f0f9155bfb.png)
+![Img](media/bf28b3c681002e92c8811e6b3f29235e.png)
 
-确认在实时模式下，并点上传固件
-![Img](assets/f7ce8deec7c881cdeac8773e7b5ebddc.png)
+Choose Arduino programming language.
 
-上传固件直接100%成功，自动返回编辑器
-![Img](assets/09f6de382e7c320e50d4c9f33efff8a1.png)
+Select COM23 as port (the number of COM port varies from computers)
+
+![Img](media/01084af5adb15ef230fd5cc7842dcd20.png)
+
+After connected, go to editor.
+
+![Img](media/8f2f133c7d86926e723892c42e211099.png)
+
+Open the switch of **Realtime**, and upload firmware.
+
+![Img](media/0d621c6bedcd8ca48aa1c31dd7ad4d4d.png)
+
+Wait the **uploading** to 100% and go to editor.
+
+![Img](media/9afdea358a36f5a569fb517b9a6a7da7.png)
+
+

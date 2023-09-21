@@ -1,5 +1,5 @@
-# 欢迎访问 Kidsblock
+# Welcome to Kidsblock
 
-**Kidblock是一款基于Scratch的图形化编程软件，集成各种主流主控板及上百种传感器和模块，既可以拖动图形化积木编程，还可以使用C/C++等高级编程语言，让孩子们轻松体验编程和创造的乐趣。**
+**The Kidblock, based on the Scratch graphical programming software, integrates multiple mainstream mainboards, sensors as well as modules. It can be programmed by dragging graphical blocks and using the C/C++ programming language, making programming easy and interesting for children to learn.**
 
 ![](assets/be6ae890be08178143a4c3564e0658fb.png)

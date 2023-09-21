@@ -1,9 +1,9 @@
 
-# 安装
+# Install
 
-* MAC 系统视频安装指导
-视频：
+* Video Guidance of Installation for MAC System
+Video: 
 
-* Windows 系统视频安装指导
-视频：
+* Video Guidance of Installation for Windows System
+Video: 
 

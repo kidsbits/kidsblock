@@ -1,13 +1,13 @@
 
 
-# 下载
+# Download Software
 
-* Windows 64位系统下载：
+* For Windows System：
  
 
 [![](assets/windows.png)](https://www.kidsblock.cn/Down/KidsBlock.exe)
  
- * 苹果MAC系统下载：
+ * For MAC System：
   
    
  [![](assets/mac.png)](https://www.kidsblock.cn/Down/KidsBlock-MACOS.dmg)

@@ -1,138 +1,201 @@
+# Kidsblock Programming
 
-# Kidsblock动画编程
+# 1. Scratch Animation Programming
 
-## 1. 动画编程界面
-![Img](assets/bedc6a2a3d4cfc3f107e5ee1b49ee8d1.png)
+## 1.1 Scratch Animation and Common Programming Function
 
-## 2.让角色动起来
+![image-20230530115530622](media/image-20230530115530622.png)
 
-用鼠标从【代码】![Img](assets/6185f5992974916dab1cc3d219862e34.png)
+## 1.2 Move The Sprite
 
----
+Drag ![image-20230530115700911](media/image-20230530115700911.png) from ![image-20230530115721500](media/image-20230530115721500.png) to the script editing area, and then drag the block ![image-20230530115852700](media/image-20230530115852700.png) from ![image-20230530115908574](media/image-20230530115908574.png) to put it under the green flag ![image-20230530120011359](media/image-20230530120011359.png).
 
-把![Img](assets/e53ff10415b47ff02a25dc2dd37240ad.png)模块拖到脚本区，
+Click ![image-20230530115700911](media/image-20230530115700911.png),  and the Sprite will move 10 steps to the right. 
 
----
+If you change 10 into more steps, will the little Sprite move farther?
 
-再从![Img](assets/ea86f4cb98b16ee79cf4698ed149de0f.png)中把![Img](assets/e5463b0510419642a07e227564e641e0.png)拖到脚本区，并拼接到绿旗下方。
+Or, if it is changed to a negative number, will the Sprite go back in an opposite direction?
 
----
-用鼠标点击![Img](assets/e53ff10415b47ff02a25dc2dd37240ad.png)漫画人角色就会向右移动10步， 把10步改成更多步，漫画人走得远了吗？ 如果改成负数，漫画人是不是向反方向后退了呢？
+![image-20230530120420164](media/image-20230530120420164.png)
 
-![Img](assets/b9b490bd15b32446a1c126b16796f345.png)
+## 1.3 Emit Sound
 
-## 3. 发出声音
-把【播放声音】模块拖到脚本区，对准并粘到“移动”模块下面。
+Drag ![image-20230530120624915](media/image-20230530120624915.png) from ![image-20230530120723827](media/image-20230530120723827.png) and stick it under ![image-20230530115852700](media/image-20230530115852700.png), and then click the green flag to execute these code blocks. 
 
-点击脚本【绿旗】=运行
-![Img](assets/da638176c2b66537c82992c365831317.png)
-你会听到小瓢虫的声音。如果没听到，检查扬声器是否设成了静音。
+![Img](media/da638176c2b66537c82992c365831317.png)
 
-![Img](assets/220f339b33a5a5ae1e5ae27f7cf6c876.png)
+You will hear that the little ladybug is calling. If not, please check whether your speaker is muted. 
 
-可以从左下角
-![Img](assets/64bc490c8e9a7542bc693901adbee5e6.png)
-进入模块加选菜单选择
-![Img](assets/d6f88864895461a7819224cc8f859a80.png)
-就可以获得更多的乐器声音，自己试一吧。
+![image-20230530120601388](media/image-20230530120601388.png)
 
-## 4. 随节奏跳舞
-回到【运动】命令组，在脚本末尾再增加一个【移动】模块，并把移动步数改为“-10”，再到【音乐】命令组，加上一个【击打】模块，选择一个不同的鼓。 然后点击这组脚本，看漫画人随鼓声进退。
+Click ![image-20230530121025654](media/image-20230530121025654.png) under the left conner to choose an extension:
 
-![Img](assets/0a53923d79074a7cb38b4cfc86eeefcb.png)
+![image-20230530121140474](media/image-20230530121140474.png)
 
-## 5. 重复执行
-在【控制】命令组中，拖过来一个【重复执行】模块，对正到原来脚本顶端。结果【重复执行】模块的【大嘴】，会把原来脚本内容全部“吃下”。  点击【绿旗】脚本执行，看到漫画人多次随鼓声来回进退。 
-![Img](assets/afa6218427ed90df874721e4179d5310.png)
+In this way, more options of music are provided! Please have a try! 
 
-## 6. 让漫画角色人说点什么
-在【外观】命令组中，拖过来一个【说】模块。
-在【说】模块里面，填写上你想要漫画人说的话，然后粘到脚本最顶端，点击执行。
-![Img](assets/fa6c2004ee540b6396fc688ad83a56ee.png)
+## 1.4 Dance with the Beat
 
-## 7. 绿旗
-把【事件】命令组里面的【当绿被点击】模块，拖到脚本页程序最上方；
-这样当点击绿旗时，脚本程序就会执行，红色按钮是停止。
-为什么要点这里呢？在脚本下点不是一样可以运行吗？ 这是因为后面我们可以创建好多个角色，就是很多个漫画角色时，这样要一起运行就要点这个绿旗了，不然只能一个个角色单独的动作了！
+Back to ![image-20230530115908574](media/image-20230530115908574.png), we add another ![image-20230530115852700](media/image-20230530115852700.png), and set the steps to “-10”. 
 
-<strong style="color: rgb(61, 167, 66);">绿旗</strong>
+In ![image-20230530131149251](media/image-20230530131149251.png), pull ![image-20230530131319346](media/image-20230530131319346.png)into script and select drums. 
 
-![Img](assets/833c0e3be8a5cab0ec3675ce78be3d14.png)
+Click the green flag, the small insect will move back and forth with the beat. 
 
-## 8. 更改颜色
-从【外观】命令组中，拖过来一个【改变特效】模块 ，点击一下，看漫画人变色了。
-![Img](assets/fb98eb317f898f1b47adace9cd3567fa.png)
+![image-20230530131544240](media/image-20230530131544240.png)
 
-## 9. 键盘控制
-从【事件】命令组中，拖动一个【按键事件】模块，放到上一步的【增加颜色特效】模块上。
-然后按空格键，看漫画人随着按键变色了吗？
-注：按黑色的小三角，弹出下拉菜单，可以选择其它的键，试一下，用键盘上的上下键调节漫画人的颜色吧！
-![Img](assets/e3d4046f29bb753805c5c7045bb084af.png)
+## 1.5 Repeat an Execution
 
-## 10. 给舞台加背景
-点击图示中按钮，从背景库中选择背景。
-![Img](assets/18db232c19679610a7fb8e3f8bbeac6e.png)
+In ![image-20230530131618613](media/image-20230530131618613.png), find ![image-20230530131645316](media/image-20230530131645316.png)and pull it under the block ![image-20230530115700911](media/image-20230530115700911.png). The "repeat" block will half-surround all the code blocks we have set. 
 
-背景库里有好多好多的背景，选择一个点【确定】
-![Img](assets/bc2b83174ba3744e519b47d33e3ae7d3.png)
+Click the green flag, and the insect will repeat the previous movement. 
 
-舞台是不是瞬间变的丰富多彩。
-![Img](assets/d1a6a0f836ca01b8347bdd56b592ee35.png)
+![image-20230530131946738](media/image-20230530131946738.png)
 
-## 11. 增加角色
-Kidsblock 里面有好多角色（英文：Sprite）,程序脚本就是让角色按我们的想法动起来。
-新增角色的4种方法：
-1. 从Kidsblock角色库里选择一个
-2. 自己画一个角色
-3. 角色在另外的图形文件中
-4. 用摄像头拍照现做一个角色
+## 1.6 Speak
 
-![Img](assets/5d575de0049a3ee04e1f6ca5bc214d60.png)
+In ![image-20230530132033640](media/image-20230530132033640.png), drag a "say" block: ![image-20230530132138049](media/image-20230530132138049.png).
 
-我们试一下第1种方法，点击 从角色库里选择Amon,看看是不是我们的舞台上就多一个人角色Amon了。
-![Img](assets/fcab56220c564c25627fd16df66def52.png)
+Paste the "say" block under ![image-20230530115700911](media/image-20230530115700911.png), and click the green flag. 
 
-角色间程序的复制：每个角色都可以有其独立的程序，而且角色间的程序是可以复制的。
-将要复制的角色下的脚本程序直接拉到要复制的角色上即可，如图：
-![Img](assets/80b25950c4cce035dee3b687b4cf91aa.png)
+![image-20230530132336681](media/image-20230530132336681.png)
 
-## 12. 录音
-声音：你可以选择声音，也可以自己录一段声音，录制后会自动在播发模块内，如图：
-![Img](assets/726dcbd94461cf929252d96c6d8bf729.png)
+## 1.7 Green Flag
 
-## 13. 切换造型
-每个角色有很多造型，你可以在【造型】标签页中，查看选择造型。
-![Img](assets/beee66a3a5b31b1d35d54c863390231f.png)
+Block ![image-20230530115700911](media/image-20230530115700911.png) in ![image-20230530115721500](media/image-20230530115721500.png) should put on the first place of a complete code. Therefore, when you click the green flag, its following code will be executed; while the red button is clicked, execution stops. 
 
-动画效果：脚本中改变造型，可以使用【外观】命令组中的【下一个造型】不停地循环变换，动画效果就出来了哦！是不是更有趣了！
-![Img](assets/69fc96bab12eb5c6efe23de87e948e5f.png)
+<strong style="color: rgb(61, 167, 66);">Green Flag</strong>
 
-## 14. 加入条件运行的程序
-写入如下程序再运行，然后输入11或其它的答案，看有什么不同？
-![Img](assets/e9fe5e6a0649ed47dce168a166a96608.png)
-这样就形成了可活动的游戏了，而且这个规则及相关的动作是你自己定的哦，是不是很好玩，而且在玩的过程中不知不觉你的逻辑思维也提升了，从游戏的使用者变成了开发者！
+![Img](media/833c0e3be8a5cab0ec3675ce78be3d14.png)
 
-## 15. 新建积木（函数）的应用
-在学习之前我们先来看一下这个曲子，按不同的颜色找出规律。
-![Img](assets/fe381e10e41c5121c5b0cd2177b33535.png)
-是不是相同颜色其实是一样的曲，歌词不同，但曲子是一样的，这样我们可以把重复运行的曲子模块化，在写程序时直接调用写好的块，这样省去了很多时间，同时也让程序更简化了。
-编写程序：在 脚本 的 【自制积木】中找到 【制作新积木】指令，并建立3个，分别命名为part1~3，然后在part1~3中编写对应的音符，其它如图组合，并加入节奏速度调节和乐器的选择，检查程序后点绿旗运行，也可以根据自己的爱好来选择乐器及播放速度，让学习更有趣！
-![Img](assets/506a4896b60766b49f73fa959a9e5a79.png)
+Why should we click here rather than the one on the block? 
 
-## 16. 变量的应用
-变量，就是一个可以变化的数据，变量来源于数学，是计算机语言中能储存计算结果或能表示值的抽象概念。
-比如老师在统计每个学生语数英的考试总分数时，计算方法都是一样，就是把三科的分数加在一起，变化的是不同学生的名字和他们各自的分数，那么在这里姓名和各自的分数及总分就是变量了。
-我们以上面的例字编写一段程序，帮老师自动的计算其中一位同学的总分，程序：
-在【变量】中新建5个变量，分别为：姓名、数学分数、语文分数、英语分数、总分，并从【运算】中找到【加法】，及【连接】，然后如图进行拼接，运行后会自动得出总分，角色会说明姓名及对应的总分值。
-在这个公式中，老师只要输入不同学生的姓及分数，点一下绿旗，就可以得到总分了。
-![Img](assets/06865205d7efdd2d3e50d47a15209625.png)
+Because when there are many comic characters, you have to click this green flag if you want to make them move altogether. Otherwise, you can only run each character code individually!
 
-## 17. 舞台的坐标
-如图，程序块内的一步为一个坐标值，以舞台中心为参考0点，分别分不同方便移动！后面的程序设计时要记得哦！
-![Img](assets/cb92beeb18c2101e087e5d149e2dd840.png)
-![Img](assets/6de017e2dc23efd6c7ae53da589d4c4d.png)
+## 1.8 Change Color
 
-## 18. 神奇魔法师例程
-如图编写一个程序，点运行后在舞台上任意位点一下，会有很神奇的效果哦，然后自己分析熟悉一下这个程序的逻辑及各功能块功能，并试着更改成不同的效果！
-![Img](assets/4a32eb3189af17b30a66442c7734dee3.png)
+In ![image-20230530132033640](media/image-20230530132033640.png), find ![image-20230530133107155](media/image-20230530133107155.png) and drag it to the editing area. 
 
+Click to execute, and you will see the color changed. 
+
+![image-20230530133232907](media/image-20230530133232907.png)
+
+## 1.9 Key Control
+
+In ![image-20230530115721500](media/image-20230530115721500.png), drag a ![image-20230530133336256](media/image-20230530133336256.png) above last block we have put. According to the block, press the corresponding key on your keyboard, do you see the color changed?
+
+![image-20230530133822951](media/image-20230530133822951.png)
+
+Tap the little triangle, a drop-down menu will show up. Then you can choose a key as you like to change the color of that ladybug!
+
+![image-20230530133839991](media/image-20230530133839991.png)
+
+## 1.10 Add a Backdrop
+
+Click ![image-20230530134130174](media/image-20230530134130174.png) to select a backdrop from the library: 
+
+![image-20230530134249705](media/image-20230530134249705.png)
+
+Choose a backdrop as you like and click it to set. 
+
+![image-20230530134458872](media/image-20230530134458872.png)
+
+Now the stage become colorful!
+
+![image-20230530134608556](media/image-20230530134608556.png)
+
+## 1.11 Create a Sprite
+
+Various Sprites are integrated in Scratch, and we construct code blocks to move them at will. 
+
+Here are four methods to create a new Sprite:
+
+1. Choose one from Scratch Sprite library
+2. Draw one by yourself
+3. Add an image file
+4. Take a photo
+
+![image-20230530135234001](media/image-20230530135234001.png)
+
+Let's try Method 1: Click ![image-20230530135347823](media/image-20230530135347823.png)to select one from the library. 
+
+Here we choose Amon: ![image-20230530135430242](media/image-20230530135430242.png), and Amon will show up on the stage!
+
+![Img](media/fcab56220c564c25627fd16df66def52.png)
+
+**Copy the code block among Sprites:**
+
+Each Sprite enjoys its own code, which can be copied to others. For how? Just directly drag the script program to the Sprite that you want to be copied: 
+
+![image-20230530140026931](media/image-20230530140026931.png)
+
+## 1.12 Record
+
+In ![image-20230530120723827](media/image-20230530120723827.png), find ![image-20230530120624915](media/image-20230530120624915.png). 
+
+Click the triangle to select "record...". After recording, it will be automatically displayed in the menu. 
+
+![image-20230530140239799](media/image-20230530140239799.png)
+
+## 1.13 Switch Costume
+
+Multiple costumes for every Sprite can be found in ![image-20230530140523384](media/image-20230530140523384.png): 
+
+![image-20230530140428946](media/image-20230530140428946.png)
+
+**Dynamic effect**: Add a ![image-20230530140742187](media/image-20230530140742187.png) in "forever" block as below, and when you execute them, a dynamic effect will be presented! It is so interesting, isn't it?
+
+![image-20230530141019855](media/image-20230530141019855.png)
+
+## 1.14 Add a Condition
+
+Construct the following code blocks, and answer it "11" and other numbers, do you see the difference?
+
+![7d91ade66f0e26f792f2de6fb4902de2](media/7d91ade66f0e26f792f2de6fb4902de2.png)
+
+Now it is an interactive game! Moreover, you can set rules of the game by yourself, which can cultivate you logic thinking. And you are a game developer now!
+
+## 1.15 Block (Function)
+Before all, let's take a look at this song and find out some rules according to different colors.
+
+![Img](media/fe381e10e41c5121c5b0cd2177b33535.png)
+
+The same rhythm is in the same color, so we can set the same part as a module block. When using, we can call the block directly to save time. 
+
+**Programming:** 
+
+In ![image-20230530142609232](media/image-20230530142609232.png), find ![image-20230530142625856](media/image-20230530142625856.png) and make three blocks respectively name them part 1, part 2 and part 3. Among them, compose notes as followings, and we add some beats and instruments.
+
+Click the green flag, music starts to play! 
+
+Of course you can compose a music and set its playing speed at will! Hope you enjoy the joy of creating!
+
+![Img](media/bb0e59e9c393244e8fd7bdf459983b8e.png)
+
+## 1.16 Variable
+A variable is a piece of data that can change. It originates from mathematics and it is an abstract concept in computer language that can store calculation results or represent values.
+
+For instance, a teacher counts the total score of each student's Chinese, Mathematics and English test, in which the calculation method is the same (scores of the three subjects are added together), but the names of students and their respective scores are different. In this example, the score and total score are variables.
+
+Based on this example, we write a program to calculate the total score: 
+
+In ![image-20230530143705762](media/image-20230530143705762.png), click ![image-20230530143726558](media/image-20230530143726558.png) to make five variables: name, aggregate score, English score, Teaching score and verbal score.  
+
+Find ![image-20230530143912592](media/image-20230530143912592.png) and ![image-20230530144006081](media/image-20230530144006081.png) in ![image-20230530143920414](media/image-20230530143920414.png), and connect them as shown below. After execution, click the green flag, and the total score with names will be automatically calculated and output. 
+
+![Img](media/a3524f33d51d7723156aa0cb3d9c0573.png)
+
+## 1.17 Coordinate of the Stage
+A step equals a coordinate value.
+
+Taking the center of the stage as the reference point 0, it is divided into different parts for movement! Do remember that when designing the program later!
+
+![Img](media/cb92beeb18c2101e087e5d149e2dd840.png)
+![Img](media/6de017e2dc23efd6c7ae53da589d4c4d.png)
+
+## 1.18 A Magician
+Write a program as shown below. 
+
+Click any position on the stage, and it will show a magical effect. Please analyze and familiarize with the logic of the program and the functions of each block by yourself, and try to re-construct it for different effect!
+
+![Img](media/f36ac3de35c36aad93e5286c312fbcf5.png)

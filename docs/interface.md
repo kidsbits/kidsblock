@@ -1,3 +1,3 @@
 
-# 软件界面功能说明
-![Img](assets/30d43dab56d85cb4255e52946507c3c1.png)
+# Function Description
+![image-20230530160234717](media/image-20230530160234717.png)

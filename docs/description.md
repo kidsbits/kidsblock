@@ -1,16 +1,23 @@
-# kidsblock介绍
+# kidsblock Introduction
 
-​ kidsblock图形化编程软件，是基于Scratch3.0二次开发的图形化编辑器，让学生理解程序设计的基础概念。可以通过不同的项目软硬件结合学习，深度理解条件，函数，链表等逻辑内容，同时帮助孩子们学习（抽象，模式，算法，分解）高效解决问题的思维方式------编程思维。
-​ 软件通过图形化编辑器与代码可视化结合，其目的是避免孩子们在学习时将工具的使用作为学习重点。语言和工具多种多样，编程思维却是互通的。编程思维的锻炼是本软件应用的核心要素，学习高效解决问题的思维方式，可以不局限于工具本身，为未来孩子们的生活或学习高级编程语言做出必要的铺垫。
+Based on Scratch3.0, Kidsblock graphical programming is an editor with secondary development aiming to enable students to understand the fundamental concepts of programming. 
 
-## kidsblock硬件支持
+Through the comprehensive projects learning, kids will have an in-depth understanding of logical content, such as conditions, functions, linked lists, etc.. In the same breath, it can help children learn efficient problem-solving methods of thinking  (abstract, model, algorithm, decomposition) --- programming thinking.
 
-|	硬件支持		|	编程语言支持			|与动画实时互动支持|
+Besides, to prevent children from focusing on the use of tools when learning, the software is combined with a graphical editor and code visualization. Languages and tools are diverse, yet programming is inter-operable. In the application of this software, the training of programming thinking is the core element. Hence, learning the way of thinking efficiently can not be limited to the tool itself, but it can pave the way for future life or for advanced programming languages.
+
+## kidsblock Hardware Support
+
+| Hardware Support |	Programming Language Support	|Realtime Support|
 |:-------------:|:---------------------:|:--------------:|
-|Arduino系列		|	图形化、Arduino C/C++|		是		|
-|Micro:bit V1/V2|	图形化、MicroPython	|		是		|
-|ESP8266		|	图形化、Arduino C/C++|		否		|
-|ESP32			|	图形化、Arduino C/C++|		是		|
+|Arduino Series		| graphical, Arduino C/C++ |		Yes		|
+|Micro:bit V1/V2|	graphical, MicroPython	|		Yes		|
+|ESP8266		| graphical, Arduino C/C++ |		No		|
+|ESP32			| graphical, Arduino C/C++ |		Yes		|
 
-软件以学习应用为基础，通图形化积木块的方式将代码简化，让学习更简单，容易理解，编程代码在应用过程中是有源码显示在右侧的，这样可以通过图形化的逻辑学习的同时也可以通过右侧代码区认识学习代码的应用。
-编程语言除图形化外还支持Arduino 及MicroPthon ，常用硬件支持：Arduino系列，Micro:bit，ESP8266，ESP32。
+Based on learning and application, it simplifies code through graphical building blocks to make learning and understanding much easier. What's more, source code is displayed on the right during the whole process, so you can also learn the underlying code.
+
+In addition to graphics, it also supports Arduino and MicroPthon. Common hardware support: Arduino series, Micro:bit, ESP8266, ESP32.
+
+
+

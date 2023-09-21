@@ -1,4 +1,9 @@
-# 驱动程序的安装
-​硬件驱动的安装：安装软件后如果没有安装串口驱动（连接硬件开发板时必须的），可以在软件的右 上角齿轮找到**安装驱动**，软件有打包常用的串口驱动。
+# Install Driver
+Click ![image-20230530152728047](media/image-20230530152728047.png) at the upper-right conner to select ![image-20230530152802530](media/image-20230530152802530.png). The commonly-used serial driver are packaged in software. 
 
-![](assets/driver.gif)
+![image-20230530152654664](media/image-20230530152654664.png)
+
+
+
+
+
