@@ -79,18 +79,18 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - 主页: 
-    - 介绍: index.md
-    - 特点: features.md
-  - 下载和安装:
-    - 下载软件: download.md
-    - 安装软件: install.md
-    - 安装驱动: drive.md
-  - 快速入门:
-    - 软件简介: description.md
-    - 软件界面: interface.md
-    - 软件功能: function.md
-  - 编程模式:
-    - 动画编程: cartoon.md
-    - 实时模式编程: realtime.md
-    - 上次模式编程: upload.md
+  - index: 
+    - introduce: index.md
+    - characteristic: features.md
+  - download and install:
+    - download: download.md
+    - install: install.md
+    - drive: drive.md
+  - Quick start:
+    - description: description.md
+    - interface: interface.md
+    - function: function.md
+  - Programming:
+    - cartoon: cartoon.md
+    - realtime: realtime.md
+    - upload: upload.md
