@@ -85,7 +85,6 @@ nav:
   - download and install:
     - download: download.md
     - install: install.md
-      - install: install.md
     - drive: drive.md
   - Quick start:
     - description: description.md
