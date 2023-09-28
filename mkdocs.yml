@@ -92,5 +92,5 @@ nav:
     - function: function.md
   - Programming:
     - cartoon: cartoon.md
-    - realtime: realtime.md
-    - upload: upload.md
+    - realtime mode: realtime.md
+    - upload mode: upload.md
