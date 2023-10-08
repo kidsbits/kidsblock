@@ -93,6 +93,6 @@ nav:
     - interface: interface.md
     - function: function.md
   - Programming:
-    - cartoon mode: cartoon.md
+    - animation mode: cartoon.md
     - realtime mode: realtime.md
     - upload mode: upload.md
