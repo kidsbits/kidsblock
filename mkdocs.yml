@@ -96,3 +96,8 @@ nav:
     - animation mode: cartoon.md
     - realtime mode: realtime.md
     - upload mode: upload.md
+  - Tutorial:
+    - smart traffic: 
+      - Project 01:Traffic Lights: traffic/project1.md
+      - Project 02:Sound of Traffic Lights: traffic/project2.md
+ 
