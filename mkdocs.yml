@@ -87,7 +87,7 @@ nav:
     - install: 
       - for Windows: Windows.md
       - for MacOS: MacOS.md
-    - install drive: drive.md
+    - install driver: driver.md
   - Quick Start:
     - description: description.md
     - interface: interface.md
