@@ -92,7 +92,6 @@ nav:
     - description: description.md
     - interface: interface.md
     - function: function.md
-    - first project: first.md
   - Programming:
     - cartoon mode: cartoon.md
     - realtime mode: realtime.md
