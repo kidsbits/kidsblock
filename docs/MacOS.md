@@ -1,4 +1,4 @@
-# 3. Install Kidsblock Software---MacOS
+# Install Kidsblock Software---MacOS
 <span style="color: rgb(255, 76, 65);">Note: We take the MacOS system as an example.</span>
 
 1. Download link：`https://www.kidsblock.cn/Down/KidsBlock-MACOS.dmg` ，as shown below:

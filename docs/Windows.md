@@ -1,5 +1,4 @@
-# 2. KidsBlock Software
-<span style="color: rgb(255, 76, 65);">Note: We take the Windows system as an example. </span>
+# Install Kidsblock Software---Windows 
 
 1. Download link: `https://www.kidsblock.cn/Down/KidsBlock.exe` .  
 Double click “KidsBlock Desktop.exe”![Img](./media/123.png)
