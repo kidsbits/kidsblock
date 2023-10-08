@@ -1,18 +1,18 @@
 # Project information
 site_name: KidsBlock
-site_url: https://KidsBlock.gitee.io/zh/
+site_url: https://KidsBlock.gitee.io/en/
 site_author: KidsBlock
 site_description: >-
-  KidsBlock 中文资料站
+  KidsBlock wiki
 
 # Repository
 repo_name: KidsBlock/KidsBlock.github.io
-repo_url: https://github.com/KidsBlock/KidsBlock.github.io/tree/zh
+repo_url: https://github.com/KidsBlock/KidsBlock.github.io/tree/en
 
 # Configuration
 theme:
   name: material
-  language: zh
+  language: en
   features:
     - navigation.tabs
     - navigation.sections
@@ -79,21 +79,21 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - index: 
+  - home page: 
     - introduce: index.md
     - characteristic: features.md
   - download and install:
     - download: download.md
     - install: 
-      - Install Kidsblock Software---Windows: Development Environment Configuration/1. Install Kidsblock Software---Windows.md
-      - Install Kidsblock Software---MacOS: Development Environment Configuration/2. Install Kidsblock Software---MacOS.md
-      - How to use KidsBlock: Development Environment Configuration/3. How to use KidsBlock.md
+      - Windows: Windows.md
+      - MacOS: MacOS.md
     - drive: drive.md
   - Quick start:
     - description: description.md
     - interface: interface.md
     - function: function.md
+    - first project: first.md
   - Programming:
-    - cartoon: cartoon.md
+    - cartoon mode: cartoon.md
     - realtime mode: realtime.md
     - upload mode: upload.md

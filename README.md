@@ -1,4 +1,4 @@
-# KidsBlock 中文资料站
+# KidsBlock wiki
 
 
 [kidsblocksite](https://kidsblocksite.readthedocs.io/)
