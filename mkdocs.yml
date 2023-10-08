@@ -79,16 +79,16 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - home page: 
+  - Home Page: 
     - introduce: index.md
     - characteristic: features.md
-  - download and install:
+  - Download and Install:
     - download: download.md
     - install: 
       - for Windows: Windows.md
       - for MacOS: MacOS.md
     - install drive: drive.md
-  - Quick start:
+  - Quick Start:
     - description: description.md
     - interface: interface.md
     - function: function.md
