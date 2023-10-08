@@ -5,11 +5,11 @@ Realtime mode integrates animation and hardware programming. When any condition 
 
 * In realtime mode, please choose **Arduino** programming language when selecting hardware. Do connect the correct COM Serial Port and make sure the mode is **Realtime**! 
 * In realtime mode, when connecting hardware for the first time, remember to **unload firmware** to load a code on mainboard to make interaction between hardware and software, so that data are shared. 
-* We will demonstrate the application of **Realtime** mode on Qihu C02 Mini Mainboard.
+* We will demonstrate the application of **Realtime** mode on UNO Mainboard.
 
 **When pressing the space key, the Sprite say "You pressed space!" and play drum; meanwhile, LED 2 will light up for 2s and then go off. **
 
-Select **ESP32plus development board**
+Select **UNOplus development board**
 
 ![Img](media/bf28b3c681002e92c8811e6b3f29235e.png)
 
