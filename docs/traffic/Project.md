@@ -939,13 +939,17 @@ Please refer to the following link：https://www.dropbox.com/scl/fo/whacdlki5y44
  5. Wiring Diagram
 
 ![Img](media/813.png)
+
+
 |Module|Kidsuno Mainboard|Module|Kidsuno Mainboard|
 | :--: | :--: | :--: | :--: |
 |Traffic Lights|Port 1(Red light→D3,Yellow light→D5,Green light→D6)|Active Buzzer|Port 6(D4)|
 |Servo|Brown wire→G,Red wire→V,Yellow wire→D13|Obstacle Avoidance Sensor|Port 7(D8)|
 |8×8 Dot Matrix|Port(5V, SDA, SCL, GND）|Photoresistor|Port 3(A3)|
 |LED Module|Port 4(D2)|Ultrasonic Adapter Board|Port 9(Trig→D10, Echo→D11)|
+
 <br>
+
 | Ultrasonic Sensor | Ultrasonic Adapter |
 | :--: | :--: |
 | Vcc | VCC |
