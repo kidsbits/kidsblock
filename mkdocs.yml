@@ -80,23 +80,23 @@ markdown_extensions:
 # Page tree
 nav:
   - Home Page: 
-    - introduce: index.md
-    - characteristic: features.md
+    - Introduce: index.md
+    - Characteristic: features.md
   - Download and Install:
-    - download: download.md
-    - install: 
+    - Download: download.md
+    - Install: 
       - for Windows: Windows.md
       - for MacOS: MacOS.md
-    - install driver: driver.md
+    - Install driver: driver.md
   - Quick Start:
-    - description: description.md
-    - interface: interface.md
-    - function: function.md
-  - Programming:
-    - animation mode: cartoon.md
-    - realtime mode: realtime.md
-    - upload mode: upload.md
+    - Description: description.md
+    - Interface: interface.md
+    - Function: function.md
+  - Programming mode:
+    - Animation mode: cartoon.md
+    - Realtime mode: realtime.md
+    - Upload mode: upload.md
   - Tutorial:
     - Inventor Kit: starter/Project.md
-    - smart traffic: traffic/Project.md
+    - Smart traffic: traffic/Project.md
  
