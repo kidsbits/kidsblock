@@ -19,6 +19,7 @@ Can we use a traffic light module to simulate the working principle of traffic l
 
 
  3. Component Knowledge
+   
 （1）Traffic lights are signal lights that command the traffic operation, which are generally composed of a red light, a green light and a yellow light. The red light means impassable, the green light means passable, and the yellow light means a warning.
 
 （2）To keep the light on, the electricity is needed. When we say that there is electricity, we mean that there is current flowing through an electrical appliance like a light. Current comes to our home from the power station via wires. And the generator of a power station is the power supply, which enables to provide voltage and current. 
@@ -944,9 +945,7 @@ Please refer to the following link：https://www.dropbox.com/scl/fo/whacdlki5y44
 |Servo|Brown wire→G,Red wire→V,Yellow wire→D13|Obstacle Avoidance Sensor|Port 7(D8)|
 |8×8 Dot Matrix|Port(5V, SDA, SCL, GND）|Photoresistor|Port 3(A3)|
 |LED Module|Port 4(D2)|Ultrasonic Adapter Board|Port 9(Trig→D10, Echo→D11)|
-
 <br>
-
 | Ultrasonic Sensor | Ultrasonic Adapter |
 | :--: | :--: |
 | Vcc | VCC |
@@ -969,6 +968,7 @@ Add **Servo** Module
 Add **Ultrasonic** Sensor
 
 ![Img](media/818.png)
+
 Add **Matrix 8*8 IIC** Display
 
 ![Img](media/819.png)
