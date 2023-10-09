@@ -70,57 +70,5 @@ Add **Matrix 8*8 IIC** Display
 
 ## 9. Test Result
 Click![Img](media/822.png) to upload the complete program to the kidsuno mainboard and power up. Then the effect of the intelligent integrate traffic system will appear.
-![Img](./FILES/Project%2008：Intelligent%20Integrated Traffic System.md/img-20230714083338.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Img](media/project08.png)
 

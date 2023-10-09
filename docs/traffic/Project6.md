@@ -100,7 +100,7 @@ First, set the angle of the servo to 32°. When the obstacle avoidance sensor de
 
 ## 12. Test Result
 Click![Img](media/631.png) to upload the complete program to the kidsuno mainboard and power up. When the obstacle avoidance sensor detects an obstacle, the servo will rotate to 100° and the barrier gate will open, otherwise it will not rotate and the barrier gate will close.
-![Img](./FILES/Project%2006：Barrier%20Gate.md/img-20230714083213.png)
+![Img](media/project06.png)
 
 
 

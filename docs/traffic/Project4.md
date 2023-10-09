@@ -148,7 +148,7 @@ First, set the angle of the servo to 93°. When the PIR motion sensor detects a 
 
 ## 18. Test Result
 Click![Img](media/453.png) to upload the complete program to the kidsuno mainboard and power up. When the PIR motion sensor detects a person or animal passing by, it will rotate to 0° and the door will be opened automatically , and it will not rotate if no man or animal is passing by and the door will not be opened.
-![Img](./FILES/Project%2004：An%20Automatic Door.md/img-20230714083105.png)
+![Img](media/project04.png)
 
 
 ## 19. Extended Project

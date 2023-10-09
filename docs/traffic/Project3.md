@@ -98,7 +98,7 @@ First, set the LED to off. When the light intensity value read by the photoresis
 
 ## 13. Test Result
 Click ![Img](media/334.png) to upload the complete program to the kidsuno mainboard and power up, then use your hands to cover the photoresistor . When the light intensity value read by the photoresistor is less than 200, the LED will be on, otherwise, it will be off.
-![Img](./FILES/Project%2003：Street%20Lamps.md/img-20230714083023.png)
+![Img](media/project03.png)
 
 ## 14. Extended Project
 ![Img](media/346.png)

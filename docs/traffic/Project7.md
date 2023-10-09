@@ -163,7 +163,7 @@ Initialize the 8*8 dot matrix and read the distance value of the ultrasonic sens
 
 ## 17. Test Result
 Click![Img](media/763.png) to upload the complete program to the kidsuno mainboard and power up. When the ultrasonic sensor detects the object within a range of 0cm to 10cm, the 8*8 dot matrix shows a "Stop" pattern, otherwise, it displays a "backward" pattern.
-![Img](./FILES/Project%2007：Astern Indicating Device.md/img-20230714083256.png)
+![Img](media/project07.png)
 
 
 ## 18. Extended Project

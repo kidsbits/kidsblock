@@ -105,7 +105,7 @@ When you need to use this variable, drag the block directly into the script area
 
 ## 13. Test Result
 Click![Img](media/531.png) to upload the complete program to the kidsuno mainboard and power up. Dripping water gradually into the metal detection area of the steam sensor, if the analog value is greater than 200, the servo will rotate back and forth at 0-100° and the windshield wipers will swing, otherwise, it will not rotate and the wipers will not swing.
-![Img](./FILES/Project%2005：Windshield%20Wipers.md/img-20230714083149.png)
+![Img](media/project05.png)
 
 
 ## 14. Extended Project
