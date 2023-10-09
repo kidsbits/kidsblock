@@ -97,13 +97,5 @@ nav:
     - realtime mode: realtime.md
     - upload mode: upload.md
   - Tutorial:
-    - smart traffic: 
-       - Project 01: traffic/Project1.md
-       - Project 02: traffic/Project2.md
-       - Project 03: traffic/Project3.md
-       - Project 04: traffic/Project4.md
-       - Project 05: traffic/Project5.md
-       - Project 06: traffic/Project6.md
-       - Project 07: traffic/Project7.md
-       - Project 08: traffic/Project8.md
+    - smart traffic: traffic/Project.md
  
