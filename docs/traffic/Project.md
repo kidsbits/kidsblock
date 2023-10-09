@@ -10,6 +10,7 @@ Can we use a traffic light module to simulate the working principle of traffic l
 
 
  2. Components
+
 |![Img](media/KidsunoMainboard.png)|![Img](media/TrafficLightModule.png)|![Img](media/ConnectionWire.png)|![Img](media/USBCable.png)| ![Img](media/TrafficLights.png) |
 | :--: | :--: | :--: | :--: | :--: |
 |Kidsuno Mainboard×1|Traffic Light Module×1|Connection Wire×1|USB Cable×1| Traffic Lights×1 |
@@ -85,7 +86,9 @@ This is a delay block, and change the number 1 to the delayed time
 ④ Complete Program
 ![Img](media/131.png)
 
- 13：Test Result 
+
+13. Test Result
+
 Click ![Img](media/125.png) to upload the complete program to the kidsuno mainboard and power up, then the lights on the traffic light module will go on and then off.
 ![Img](media/912.png)![Img](media/913.png)
 
@@ -118,7 +121,7 @@ This is a conditional loop control statement and it will exit the loop  when the
 ![Img](media/139.png)
 ![Img](media/140.png)
 
- 18.Test Result 
+ 18. Test Result 
 Click ![Img](media/125.png) to upload the complete program to the kidsuno mainboard and power up, then the red light will be on for 5 s then go off, then the yellow light will flash for 3 times then go off, then the green light will be on for 5 s then go off and continue the cycle.
 ![Img](media/914.png)
 
@@ -138,6 +141,7 @@ The extended sample code is below：
 Today, I was walking home from school when I saw the traffic light beep at the intersection. Can we add a sound to the traffic light module in project 01? Let's take a look at the tools first.
 
  2. Components
+
 |![Img](media/KidsunoMainboard.png)|![Img](media/TrafficLightModule.png)|![Img](media/ActiveBuzzer.png)|
 | :--: | :--: | :--: |
 |Kidsuno Mainboard×1|Traffic Light Module×1|Active Buzzer×1|
@@ -242,6 +246,7 @@ The sample code is below：
 Street lamps are ubiquitous in our daily life. For example, some public street lamps come on automatically at night and go off automatically during the day. Do you want to know why? Let’s make a small street lamp together. Look at the tools first.
 
  2. Components
+
 |![Img](media/KidsunoMainboard.png)|![Img](media/Photoresistor.png)|![Img](media/WhiteLED.png)|
 | :--: | :--: | :--: |
 |Kidsuno Mainboard×1|Photoresistor×1|White LED Module×1|
@@ -352,6 +357,7 @@ I find that there are many interesting inventions in our life. Last time I went 
 How magical it is! Today, let's make a device that can open the door automatically. Let’s look at the tools first.
 
  2. Components
+   
 |![Img](media/KidsunoMainboard.png)|![Img](media/PIRMotionSensor.png)|![Img](media/270°Servo.png)|
 | :--: | :--: | :--: |
 |Kidsuno Mainboard×1|PIR Motion Sensor×1|270°Servo×1|
@@ -510,6 +516,7 @@ The sample code is below：
 Our family drove out for a trip at the weekend, however, it suddenly rained heavily on the way home. My father turned on the windshield wipers and the rain on the front glass of the car was constantly scraped away. Let’s explore the reason!
 
  2. Components
+
 |![Img](media/KidsunoMainboard.png)|![Img](media/SteamSensor.png)|![Img](media/270°Servo.png)|
 | :--: | :--: | :--: |
 |Kidsuno Mainboard×1|Steam Sensor×1|270°Servo×1|
@@ -630,6 +637,7 @@ Maybe you're as curious about this device as I am, let’s make a barrier gate c
 The following are the tools we need.
 
  2. Components
+
 |![Img](media/KidsunoMainboard.png)|![Img](media/ObstacleAvoidanceSensor.png)|![Img](media/270°Servo.png)|
 | :--: | :--: | :--: |
 |Kidsuno Mainboard×1|Obstacle Avoidance Sensor×1|270°Servo×1|
@@ -734,6 +742,7 @@ For example, we can observe the specific situation behind the car if we turn on 
 The following are the tools we need.
 
  2. Components
+
 |![Img](media/KidsunoMainboard.png)|![Img](media/UltrasonicAdapter.png)|![Img](media/UltrasonicSensor.png)| ![Img](media/AsternIndicatingDevice.png) |
 | :--: | :--: | :--: | :--: |
 |Kidsuno Mainboard×1|Ultrasonic Adapter Board×1|Ultrasonic Sensor×1| Astern Indicating Device×1 |
@@ -909,6 +918,7 @@ We have learned a host of projects before, can we put them together to make an i
 The following are the tools we need.
 
  2. Components
+   
 |![Img](media/KidsunoMainboard.png)|![Img](media/TrafficLightModule.png)|![Img](media/ActiveBuzzer.png)|![Img](media/Photoresistor.png)|![Img](media/WhiteLED.png)|
 | :--: | :--: | :--: | :--: |  :--: |
 |Kidsuno Mainboard×1|Traffic Light Module×1|Active Buzzer×1|Photoresistor×1|White LED×1|
@@ -926,6 +936,7 @@ The following are the tools we need.
 Please refer to the following link：https://www.dropbox.com/scl/fo/whacdlki5y44kevau03qa/h?dl=0&rlkey=ogbigsw7lxv8zhkvr1oqhlkmz
 
  5. Wiring Diagram
+
 ![Img](media/813.png)
 |Module|Kidsuno Mainboard|Module|Kidsuno Mainboard|
 | :--: | :--: | :--: | :--: |
