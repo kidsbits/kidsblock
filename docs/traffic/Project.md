@@ -4,12 +4,12 @@
 
 ![Img](media/111.png)
 
-### 1. Introduction
+ 1. Introduction
 I met a big traffic jam on my way to school today. The red light at the intersection where I waited lasted very long and the green light flashed a few times and then changed to yellow. It seems that there's something wrong with the traffic light's digital signal. 
 Can we use a traffic light module to simulate the working principle of traffic lights?  Let's take a look at the tools first.
 
 
-### 2. Components
+ 2. Components
 |![Img](media/KidsunoMainboard.png)|![Img](media/TrafficLightModule.png)|![Img](media/ConnectionWire.png)|![Img](media/USBCable.png)| ![Img](media/TrafficLights.png) |
 | :--: | :--: | :--: | :--: | :--: |
 |Kidsuno Mainboard×1|Traffic Light Module×1|Connection Wire×1|USB Cable×1| Traffic Lights×1 |
@@ -17,7 +17,7 @@ Can we use a traffic light module to simulate the working principle of traffic l
 ![Img](media/112.png)
 
 
-### 3. Component Knowledge
+ 3. Component Knowledge
 （1）Traffic lights are signal lights that command the traffic operation, which are generally composed of a red light, a green light and a yellow light. The red light means impassable, the green light means passable, and the yellow light means a warning.
 
 （2）To keep the light on, the electricity is needed. When we say that there is electricity, we mean that there is current flowing through an electrical appliance like a light. Current comes to our home from the power station via wires. And the generator of a power station is the power supply, which enables to provide voltage and current. 
@@ -25,20 +25,20 @@ Can we use a traffic light module to simulate the working principle of traffic l
 The battery we usually use is also the power supply. Wires can be used to conduct electricity, which connect a path for the current to flow. This path is called a circuit. If we want to make a lamp emit light, both a power supply and a complete circuit are needed.
 ![Img](media/113.png)
 
-### 4. Installation of Traffic Lights
+ 4. Installation of Traffic Lights
 
 Please refer to the following link：https://www.dropbox.com/scl/fo/whacdlki5y44kevau03qa/h?dl=0&rlkey=ogbigsw7lxv8zhkvr1oqhlkmz
 
 
-### 5. Function: Light Up the Traffic Lights
+ 5. Function: Light Up the Traffic Lights
 ![Img](media/114.png)
 
-### 6. Wiring Diagram
+ 6. Wiring Diagram
 Connect the kidsuno mainboard and computer via a USB cable, and connect the traffic light module to the No.1 interface of the mainboard.
 
 ![Img](media/115.png)
 
-### 7. Description of the Building Blocks
+ 7. Description of the Building Blocks
 ![Img](media/116.png)
 
 Set **input** or **output** to the specified pin. **input** means input mode,**output** means output mode. Select **input-pullup** can set the input mode for the pin and make it become high level.
@@ -46,7 +46,7 @@ Set **input** or **output** to the specified pin. **input** means input mode,**o
 
 Set **high** or **low** to the specified pin. Select **high** means to set high level for the pin. If there is voltage and current, the LED will be on. Select **low** means to set low level for the pin. If there is no voltage and current, the LED will be off.
 
-### 8. Write the Program
+ 8. Write the Program
 
 ① Drag the instruction block ![Img](media/118.png)in the **Events** module to the script area.
 ![Img](media/119.png)
@@ -61,18 +61,18 @@ Set **high** or **low** to the specified pin. Select **high** means to set high 
 ![Img](media/124.png)
 
 
-### 9. Test Result
+ 9. Test Result
 Click ![Img](media/125.png) to upload the complete program to the kidsuno mainboard and power up, then the lights on the traffic light module will be on. It seems pretty amazing, right?
 ![Img](media/911.png)
 
-### 10. Function: Make the Traffic Lights On and Off
+ 10. Function: Make the Traffic Lights On and Off
 ![Img](media/126.png)
 
-### 11. Description of the the Building Blocks
+ 11. Description of the the Building Blocks
 ![Img](media/127.png)
 This is a delay block, and change the number 1 to the delayed time
 
-### 12. Write the Program
+ 12. Write the Program
 ①  Write the program according to the knowledge learned before and refer to the last program code.
 ![Img](media/128.png)
 
@@ -85,26 +85,26 @@ This is a delay block, and change the number 1 to the delayed time
 ④ Complete Program
 ![Img](media/131.png)
 
-### 13：Test Result 
+ 13：Test Result 
 Click ![Img](media/125.png) to upload the complete program to the kidsuno mainboard and power up, then the lights on the traffic light module will go on and then off.
 ![Img](media/912.png)![Img](media/913.png)
 
 
-### 14. Function of Traffic Lights 
+ 14. Function of Traffic Lights 
 ![Img](media/132.png)
 
-### 15. Flow Chart 
+ 15. Flow Chart 
 First set the three LED lights to off, then the red light will be on for 5 s then go off, then the yellow light will flash for 3 times then go off, then the green light will be on for 5 s then go off.
 ![Img](media/133.png)
 
-### 16. Description of the the Building Blocks
+ 16. Description of the the Building Blocks
 ![Img](media/134.png)
 This is a loop statement: do a same thing over and over again.
 
 ![Img](media/135.png)
 This is a conditional loop control statement and it will exit the loop  when the number of loops is met. For example, 10 means 10 cycles, and the number 10 can be changed to other numbers.
 
-### 17. Write the Program
+ 17. Write the Program
 
 ① Find the instruction blocks
 （1）![Img](media/136.png)
@@ -118,11 +118,11 @@ This is a conditional loop control statement and it will exit the loop  when the
 ![Img](media/139.png)
 ![Img](media/140.png)
 
-### 18.Test Result 
+ 18.Test Result 
 Click ![Img](media/125.png) to upload the complete program to the kidsuno mainboard and power up, then the red light will be on for 5 s then go off, then the yellow light will flash for 3 times then go off, then the green light will be on for 5 s then go off and continue the cycle.
 ![Img](media/914.png)
 
-### 19. Extended Project
+ 19. Extended Project
 ![Img](media/141.png)
 
 The extended sample code is below：
@@ -134,10 +134,10 @@ The extended sample code is below：
 
 ![Img](media/211.png)
 
-### 1. Introduction
+ 1. Introduction
 Today, I was walking home from school when I saw the traffic light beep at the intersection. Can we add a sound to the traffic light module in project 01? Let's take a look at the tools first.
 
-### 2. Components
+ 2. Components
 |![Img](media/KidsunoMainboard.png)|![Img](media/TrafficLightModule.png)|![Img](media/ActiveBuzzer.png)|
 | :--: | :--: | :--: |
 |Kidsuno Mainboard×1|Traffic Light Module×1|Active Buzzer×1|
@@ -147,17 +147,17 @@ Today, I was walking home from school when I saw the traffic light beep at the i
 ![Img](media/212.png)
 
 
-### 3. Installation Steps
+ 3. Installation Steps
 Please refer to the following link：https://www.dropbox.com/scl/fo/whacdlki5y44kevau03qa/h?dl=0&rlkey=ogbigsw7lxv8zhkvr1oqhlkmz
 
-### 4. Function: Make the Active Buzzer Sound
+ 4. Function: Make the Active Buzzer Sound
 ![Img](media/213.png)
 
-### 5. Wiring Diagram
+ 5. Wiring Diagram
 Connect the mainboard and computer via a USB cable, and connect the traffic light module to the No.1 interface of the mainboard and the active buzzer to the No.9 interface of the mainboard.
 ![Img](media/214.png)
 
-### 6. Write the Program
+ 6. Write the Program
 ① Drag the instruction block![Img](media/215.png) in the **Events** module to the script area.
 ![Img](media/216.png)
 
@@ -173,14 +173,14 @@ in the **Pins** module to the script area and change the number 0 to 10.
 ![Img](media/221.png)
 
 
-### 7. Test Result
+ 7. Test Result
 Click ![Img](media/222.png) to upload the complete program to the kidsuno mainboard and power up, then the active buzzer will sound. It seems pretty amazing, right?
 ![Img](media/915.png)
 
-### 8. Function: Make the Active Buzzer Beep
+ 8. Function: Make the Active Buzzer Beep
 ![Img](media/223.png)
 
-### 9. Write the Program
+ 9. Write the Program
 ① change the **high** in the previous program to **low**.
 ![Img](media/224.png)
 
@@ -199,18 +199,18 @@ Click ![Img](media/222.png) to upload the complete program to the kidsuno mainbo
 ⑥ Complete Program
 ![Img](media/233.png)
 
-### 10. Test Result
+ 10. Test Result
 Click ![Img](media/222.png) to upload the complete program to the kidsuno mainboard and power up, then the active buzzer will beep. It seems pretty amazing, right?
 ![Img](media/915.png)
 
-### 11. Function: Sound of Traffic Lights 
+ 11. Function: Sound of Traffic Lights 
 ![Img](media/234.png)
 
-### 12. Flow Chart 
+ 12. Flow Chart 
 First the three LED lights will be off the buzzer will not beep, then the buzzer beeps and the red light flashes for 5 s then goes off , then the yellow light flashes for 3 times then goes off, then the green light will be on for 5 s then go off.
 ![Img](media/235.png)
 
-### 13. Write the Program
+ 13. Write the Program
 
 ① Find the instruction blocks
 （1）![Img](media/236.png)
@@ -223,11 +223,11 @@ First the three LED lights will be off the buzzer will not beep, then the buzzer
 ![Img](media/239.png)
 ![Img](media/240.png)
 
-### 14. Test Result
+ 14. Test Result
 Click ![Img](media/222.png) to upload the complete program to the kidsuno mainboard and power up, then the buzzer beeps and the red light flashes for 5 s then it won’t beep and the light will be off , then the yellow light flashes for 3 times then goes off, then the green light will be on for 5 s then go off.
 ![Img](media/916.png)
 
-### 15. Extended Project
+ 15. Extended Project
 ![Img](media/241.png)
 
 The sample code is below：
@@ -238,10 +238,10 @@ The sample code is below：
 
 ![Img](media/311.png)
 
-### 1. Introduction
+ 1. Introduction
 Street lamps are ubiquitous in our daily life. For example, some public street lamps come on automatically at night and go off automatically during the day. Do you want to know why? Let’s make a small street lamp together. Look at the tools first.
 
-### 2. Components
+ 2. Components
 |![Img](media/KidsunoMainboard.png)|![Img](media/Photoresistor.png)|![Img](media/WhiteLED.png)|
 | :--: | :--: | :--: |
 |Kidsuno Mainboard×1|Photoresistor×1|White LED Module×1|
@@ -250,17 +250,17 @@ Street lamps are ubiquitous in our daily life. For example, some public street l
 
 ![Img](media/312.png)
 
-### 3. Installation Steps
+ 3. Installation Steps
 Please refer to the following link：https://www.dropbox.com/scl/fo/whacdlki5y44kevau03qa/h?dl=0&rlkey=ogbigsw7lxv8zhkvr1oqhlkmz
 
-### 4. Function: Detect the Light Intensity 
+ 4. Function: Detect the Light Intensity 
 ![Img](media/313.png)
 
-### 5. Wiring Diagram
+ 5. Wiring Diagram
 Connect the kidsuno mainboard and computer via a USB cable, and connect the photoresistor to the No.7 interface of the mainboard and the LED module to the No.1 interface of the mainboard.
 ![Img](media/314.png)
 
-### 6. Description of the the Building Blocks
+ 6. Description of the the Building Blocks
 ![Img](media/315.png)
 The block is used to set serial baud rate(generally, the baud rate 9600 is taken as an example)
 
@@ -270,7 +270,7 @@ This block is used to set print mode for the serial port. **warp** means line fe
 ![Img](media/317.png)
 It is used to read the analog signal value of the specified pin（range：0~1023)
 
-### 7. Write the Program
+ 7. Write the Program
 ① Drag the instruction block![Img](media/318.png) in the **Events** module to the script area.
 ![Img](media/319.png)
 
@@ -297,24 +297,24 @@ in the **Pins** module to the script area. Since the photoresistor is connected 
 ⑧ Complete Program
 ![Img](media/333.png)
 
-### 8. Test Result
+ 8. Test Result
 Click ![Img](media/334.png) to upload the complete program to the kidsuno mainboard and power up, then click ![Img](media/335.png) in the serial monitor area to set the baud rate to 9600. Then the serial monitor will print the analog value read by the photoresistor. When the light intensity in the environment where the photoresistor is located gradually decreases, the analog value increases gradually, otherwise, the analog value decreases.
 ![Img](media/917.png) 
 ![Img](media/analogvalue.png)
 
-### 9. Function: Photoresistor Controls LED
+ 9. Function: Photoresistor Controls LED
 ![Img](media/336.png)
 
 
-### 10. Description of the the Building Blocks
+ 10. Description of the the Building Blocks
 ![Img](media/337.png)
 It is a conditional statement code executing **if-then-else ** function: If the logical judgment statement in ![Img](media/338.png) is satisfied, the code statement below **then** is executed, otherwise, the code below **else** is executed.
 
-### 11. Flow Chart 
+ 11. Flow Chart 
 First, set the LED to off. When the light intensity value read by the photoresistor is less than 200, the LED will be on, otherwise, it will be off.
 ![Img](media/339.png)
 
-### 12. Write the Program
+ 12. Write the Program
 
 ① Find the instruction blocks
 （1）![Img](media/340.png)
@@ -332,11 +332,11 @@ First, set the LED to off. When the light intensity value read by the photoresis
 ![Img](media/345.png)
 
 
-### 13. Test Result
+ 13. Test Result
 Click ![Img](media/334.png) to upload the complete program to the kidsuno mainboard and power up, then use your hands to cover the photoresistor . When the light intensity value read by the photoresistor is less than 200, the LED will be on, otherwise, it will be off.
 ![Img](media/project03.png)
 
-### 14. Extended Project
+ 14. Extended Project
 ![Img](media/346.png)
 
 The sample code is below：
@@ -346,12 +346,12 @@ The sample code is below：
 
 ![Img](media/411.png)
 
-### 1. Introduction
+ 1. Introduction
 I find that there are many interesting inventions in our life. Last time I went to a library with my classmates to borrow a book about learning robots. When we came to the door, it opened automatically.
 
 How magical it is! Today, let's make a device that can open the door automatically. Let’s look at the tools first.
 
-### 2. Components
+ 2. Components
 |![Img](media/KidsunoMainboard.png)|![Img](media/PIRMotionSensor.png)|![Img](media/270°Servo.png)|
 | :--: | :--: | :--: |
 |Kidsuno Mainboard×1|PIR Motion Sensor×1|270°Servo×1|
@@ -360,14 +360,14 @@ How magical it is! Today, let's make a device that can open the door automatical
 
 ![Img](media/412.png)
 
-### 3. Function: Rotate the Servo
+ 3. Function: Rotate the Servo
 ![Img](media/413.png)
 
-### 4. Wiring Diagram
+ 4. Wiring Diagram
 Connect the kidsuno mainboard and computer via a USB cable, and connect the servo to the G, V and D13 interface of the mainboard. The brown wire is connected to G, the red wire is connected to V and the orange wire is connected to D13.
 ![Img](media/414.png)
 
-### 5. Add the Servo Instruction Module
+ 5. Add the Servo Instruction Module
 ![Img](media/415.png)
 
 ![Img](media/416.png)
@@ -379,13 +379,13 @@ Add **Servo**
 ![Img](media/418.png)
 
 
-### 6. Description of the the Building Blocks
+ 6. Description of the the Building Blocks
 
 ![Img](media/419.png)
 Set the rotation angle of the servo and the delayed time for a specified pin
 
 
-### 7. Write the Program
+ 7. Write the Program
 ① Drag the instruction block![Img](media/420.png) in the **Events** module to the script area.
 ![Img](media/421.png)
 
@@ -411,27 +411,27 @@ in the **servo** module to the script area, then change the number 3 to 13, the 
 ⑦ Complete Program
 ![Img](media/432.png)
 
-### 8. Test Result
+ 8. Test Result
 Click ![Img](media/433.png) to upload the complete program to the kidsuno mainboard and power up, then the servo will rotate from 93°to 62° to 31° to 0° and rotate from 0° to 31° to 62° to 93°.
 
-### 9. Installation Steps
+ 9. Installation Steps
 Please refer to the following link：https://www.dropbox.com/scl/fo/whacdlki5y44kevau03qa/h?dl=0&rlkey=ogbigsw7lxv8zhkvr1oqhlkmz
 
-### 10. Wiring Diagram
+ 10. Wiring Diagram
 Connect the kidsuno mainboard and computer via a USB cable, and connect the servo to the G, V and D13 interface of the mainboard and the PIR motion sensor to the No.1 interface of the mainboard.
 The brown wire is connected to G, the red wire is connected to V and the orange wire is connected to D13.
 ![Img](media/434.png)
 
-### 11. Function: Read the PIR Motion Sensor
+ 11. Function: Read the PIR Motion Sensor
 ![Img](media/435.png)
 
 
-### 12. Description of the the Building Blocks
+ 12. Description of the the Building Blocks
 ![Img](media/436.png)
 This is the digital signal (0 or 1) for a specified pin.
 
 
-### 13. Write the Program
+ 13. Write the Program
 ① Drag the instruction block ![Img](media/437.png) in the **Events** module to the script area.
 ![Img](media/438.png)
 
@@ -457,20 +457,20 @@ This is the digital signal (0 or 1) for a specified pin.
 ![Img](media/452.png)
 
 
-### 14. Test Result
+ 14. Test Result
 Click![Img](media/453.png) to upload the complete program to the kidsuno mainboard and power up, then click ![Img](media/454.png) in the serial monitor area to set the baud rate to 9600. When the PIR motion sensor detects a person or animal moving, the serial monitor prints a digital signal 1, otherwise it prints 0.
 ![Img](media/918.png)
 ![Img](media/455.png)
 
-### 15. Function: PIR Motion Sensor Controls the Servo
+ 15. Function: PIR Motion Sensor Controls the Servo
 ![Img](media/456.png)
 
-### 16. Flow Chart 
+ 16. Flow Chart 
 First, set the angle of the servo to 93°. When the PIR motion sensor detects a person or animal passing by, it will rotate to 0° and it will not rotate if no man or animal is passing by.
 ![Img](media/457.png)
 
 
-### 17. Write the Program
+ 17. Write the Program
 
 ① Find the instruction blocks
 （1）![Img](media/458.png)
@@ -490,12 +490,12 @@ First, set the angle of the servo to 93°. When the PIR motion sensor detects a 
 ![Img](media/464.png)
 
 
-### 18. Test Result
+ 18. Test Result
 Click![Img](media/453.png) to upload the complete program to the kidsuno mainboard and power up. When the PIR motion sensor detects a person or animal passing by, it will rotate to 0° and the door will be opened automatically , and it will not rotate if no man or animal is passing by and the door will not be opened.
 ![Img](media/project04.png)
 
 
-### 19. Extended Project
+ 19. Extended Project
 ![Img](media/465.png)
 
 The sample code is below：
@@ -506,10 +506,10 @@ The sample code is below：
 
 ![Img](media/511.png)
 
-### 1. Introduction
+ 1. Introduction
 Our family drove out for a trip at the weekend, however, it suddenly rained heavily on the way home. My father turned on the windshield wipers and the rain on the front glass of the car was constantly scraped away. Let’s explore the reason!
 
-### 2. Components
+ 2. Components
 |![Img](media/KidsunoMainboard.png)|![Img](media/SteamSensor.png)|![Img](media/270°Servo.png)|
 | :--: | :--: | :--: |
 |Kidsuno Mainboard×1|Steam Sensor×1|270°Servo×1|
@@ -518,20 +518,20 @@ Our family drove out for a trip at the weekend, however, it suddenly rained heav
 
 ![Img](media/512.png)
 
-### 3. Installation Steps
+ 3. Installation Steps
 Please refer to the following link：https://www.dropbox.com/scl/fo/whacdlki5y44kevau03qa/h?dl=0&rlkey=ogbigsw7lxv8zhkvr1oqhlkmz
 
 
-### 4. Function: Steam Sensor Detects Water
+ 4. Function: Steam Sensor Detects Water
 ![Img](media/513.png)
 
 
-### 5. Wiring Diagram
+ 5. Wiring Diagram
 Connect the kidsuno mainboard and computer via a USB cable, and connect the servo to the G, V and D13 interface of the mainboard and the steam sensor to the No.7 interface of the mainboard.
 The brown wire is connected to G, the red wire is connected to V and the orange wire is connected to D13.
 ![Img](media/514.png)
 
-### 6. Write the Program
+ 6. Write the Program
 ① Drag the instruction block ![Img](media/515.png) in the **Events** module to the script area.
 ![Img](media/516.png)
 
@@ -557,25 +557,25 @@ The brown wire is connected to G, the red wire is connected to V and the orange 
 ![Img](media/530.png)
 
 
-### 7. Test Result
+ 7. Test Result
 Click ![Img](media/531.png) to upload the complete program to the kidsuno mainboard and power up, then click![Img](media/532.png) in the serial monitor area to set the baud rate to 9600. When we drip water gradually into the metal detection area of the steam sensor, the analog number will increase gradually.
 ![Img](media/533.png)
 
 
-### 8. Function: Steam Sensor Controls the Servo
+ 8. Function: Steam Sensor Controls the Servo
 ![Img](media/534.png)
 
 
-### 9. Flow Chart 
+ 9. Flow Chart 
 First, set the angle of the servo to 0°. When the analog value of the steam  sensor is greater than 200, the servo will rotate back and forth at 0-100°, otherwise, it will not rotate and the angle of the servo will be 0°.
 ![Img](media/535.png)
 
 
-### 10. Add the Servo Instruction Module
+ 10. Add the Servo Instruction Module
 ![Img](media/536.png)
 
 
-### 11. Description of Building Blocks 
+ 11. Description of Building Blocks 
 <span style="color: rgb(255, 76, 65);">This is the variable module. Let’s look at it!</span> 
 
 There are commonly used **declare global numeric variable type integer name assigned to 0**, **variable** and **Set variable to 0** instruction squares:
@@ -583,7 +583,7 @@ There are commonly used **declare global numeric variable type integer name assi
 
 When you need to use this variable, drag the block directly into the script area to edit it!
 
-### 12. Write the Program
+ 12. Write the Program
 
 ① Find the instruction blocks
 （1）![Img](media/538.png)
@@ -607,12 +607,12 @@ When you need to use this variable, drag the block directly into the script area
 ![Img](media/546.png)
 
 
-### 13. Test Result
+ 13. Test Result
 Click![Img](media/531.png) to upload the complete program to the kidsuno mainboard and power up. Dripping water gradually into the metal detection area of the steam sensor, if the analog value is greater than 200, the servo will rotate back and forth at 0-100° and the windshield wipers will swing, otherwise, it will not rotate and the wipers will not swing.
 ![Img](media/project05.png)
 
 
-### 14. Extended Project
+ 14. Extended Project
 ![Img](media/547.png)
 
 The sample code is below：
@@ -623,13 +623,13 @@ The sample code is below：
 
 ![Img](media/611.png)
 
-### 1. Introduction
+ 1. Introduction
 Last time my dad drove me to eat seafood, however, when our car came to the barrier gate of the parking lot, the gate rose automatically, and when the car passed, it fell automatically. 
 
 Maybe you're as curious about this device as I am, let’s make a barrier gate can automatically rise and fall together! 
 The following are the tools we need.
 
-### 2. Components
+ 2. Components
 |![Img](media/KidsunoMainboard.png)|![Img](media/ObstacleAvoidanceSensor.png)|![Img](media/270°Servo.png)|
 | :--: | :--: | :--: |
 |Kidsuno Mainboard×1|Obstacle Avoidance Sensor×1|270°Servo×1|
@@ -639,19 +639,19 @@ The following are the tools we need.
 ![Img](media/612.png)
 
 
-### 3. Installation Steps
+ 3. Installation Steps
 Please refer to the following link：https://www.dropbox.com/scl/fo/whacdlki5y44kevau03qa/h?dl=0&rlkey=ogbigsw7lxv8zhkvr1oqhlkmz
 
 
-### 4. Function: Read the Obstacle Avoidance Sensor
+ 4. Function: Read the Obstacle Avoidance Sensor
 ![Img](media/613.png)
 
-### 5. Wiring Diagram
+ 5. Wiring Diagram
 Connect the kidsuno mainboard and computer via a USB cable, and connect the servo to the G, V and D13 interface of the mainboard and the obstacle avoidance sensor to the No.1 interface of the mainboard.
 Note: The brown wire is connected to G, the red wire is connected to V and the orange wire is connected to D13.
 ![Img](media/614.png)
 
-### 6. Write the Program
+ 6. Write the Program
 ① Drag the instruction block ![Img](media/615.png) in the **Events** module to the script area.
 ![Img](media/616.png)
 
@@ -677,26 +677,26 @@ Note: The brown wire is connected to G, the red wire is connected to V and the o
 ![Img](media/630.png)
 
 
-### 7. Test Result
+ 7. Test Result
 Click![Img](media/631.png) to upload the complete program to the kidsuno mainboard and power up, then click ![Img](media/632.png) in the serial monitor area to set the baud rate to 9600. When the obstacle avoidance sensor detects an obstacle, the serial monitor will print a digital signal 0, otherwise, it will print 1.
 ![Img](media/919.png)
 ![Img](media/633.png)
 
 
-### 8. Function: Obstacle Avoidance Sensor Controls the Servo
+ 8. Function: Obstacle Avoidance Sensor Controls the Servo
 ![Img](media/634.png)
 
 
-### 9. Flow Chart 
+ 9. Flow Chart 
 First, set the angle of the servo to 32°. When the obstacle avoidance sensor detects an obstacle, the servo will rotate to 100°, otherwise it will not rotate.
 ![Img](media/635.png)
 
 
-### 10. Add the Servo Instruction Module
+ 10. Add the Servo Instruction Module
 ![Img](media/636.png)
 
 
-### 11. Write the Program
+ 11. Write the Program
 
 ① Find the instruction blocks
 （1）![Img](media/637.png)
@@ -719,7 +719,7 @@ First, set the angle of the servo to 32°. When the obstacle avoidance sensor de
 ② Complete Program
 ![Img](media/645.png)
 
-### 12. Test Result
+ 12. Test Result
 Click![Img](media/631.png) to upload the complete program to the kidsuno mainboard and power up. When the obstacle avoidance sensor detects an obstacle, the servo will rotate to 100° and the barrier gate will open, otherwise it will not rotate and the barrier gate will close.
 ![Img](media/project06.png)
 
@@ -727,13 +727,13 @@ Click![Img](media/631.png) to upload the complete program to the kidsuno mainboa
 
 ![Img](media/711.png)
 
-### 1. Introduction
+ 1. Introduction
 With the development of science and technology, cars boast the ability of intelligent environment perception, which can automatically analyze the safety and danger when driving. 
 
 For example, we can observe the specific situation behind the car if we turn on the astern indicating device when backing up, which can avoid the car being knocked. Let’s make an astern indicating device together! 
 The following are the tools we need.
 
-### 2. Components
+ 2. Components
 |![Img](media/KidsunoMainboard.png)|![Img](media/UltrasonicAdapter.png)|![Img](media/UltrasonicSensor.png)| ![Img](media/AsternIndicatingDevice.png) |
 | :--: | :--: | :--: | :--: |
 |Kidsuno Mainboard×1|Ultrasonic Adapter Board×1|Ultrasonic Sensor×1| Astern Indicating Device×1 |
@@ -743,19 +743,19 @@ The following are the tools we need.
 ![Img](media/712.png)
 
 
-### 3. Installation Steps
+ 3. Installation Steps
 Please refer to the following link：https://www.dropbox.com/scl/fo/whacdlki5y44kevau03qa/h?dl=0&rlkey=ogbigsw7lxv8zhkvr1oqhlkmz
 
 
-### 4. Function: 8*8 Dot Matrix Displays Expression Patterns
+ 4. Function: 8*8 Dot Matrix Displays Expression Patterns
 ![Img](media/713.png)
 
 
-### 5. Wiring Diagram
+ 5. Wiring Diagram
 Connect the kidsuno mainboard and computer via a USB cable. Then connect the 8×8 dot matrix module to the No.8 interface of the mainboard and the ultrasonic adapter board to the No.9 interface of the mainboard. The Vcc, Trig, Echo, and Gnd of the ultrasonic sensor correspond to the same port of the ultrasonic adapter board.
 ![Img](media/714.png)
 
-### 6. Add the Instruction Library of the 8*8 Dot Matrix
+ 6. Add the Instruction Library of the 8*8 Dot Matrix
 To use the 8×8 dot matrix , we need to call the "Display" module in the "Extension" function. Click "Matrix 8*8 IIC" then tap ![Img](media/744.png) to return to the programming interface.
 ![Img](media/715.png)
 **Extension** Instruction 
@@ -766,7 +766,7 @@ Add **Matrix 8*8 IIC** Display
 ![Img](media/717.png)
 
 
-### 7. Write the Program
+ 7. Write the Program
 ① Drag the instruction block![Img](media/718.png) in the **Events** module to the script area.
 ![Img](media/719.png)
 
@@ -796,15 +796,15 @@ Add **Matrix 8*8 IIC** Display
 ![Img](media/741.png)
 
 
-### 8. Test Result
+ 8. Test Result
 Click![Img](media/742.png) to upload the complete program to the kidsuno mainboard and power up, then the the 8*8 dot matrix will display colorful expression patterns.
 ![Img](media/920.png)
 
-### 9. Function：Ultrasonic Sensor Detects Distance
+ 9. Function：Ultrasonic Sensor Detects Distance
 ![Img](media/743.png)
 
 
-### 10. Add the Instruction Library of the Ultrasonic Sensor
+ 10. Add the Instruction Library of the Ultrasonic Sensor
 To use the ultrasonic sensor , we need to call the **Sensor** module in the **Extension** function. Click **Ultrasonic** then tap ![Img](media/744.png) to return to the programming interface.
 ![Img](media/745.png)
 **Extension** Instruction 
@@ -814,12 +814,12 @@ Add **Ultrasonic** Sensor
 
 ![Img](media/747.png)
 
-### 11. Description of the the Building Blocks
+ 11. Description of the the Building Blocks
 ![Img](media/748.png)
 This is the ultrasonic sensor instruction block used to measure the distance for the specified pin. The distance unit can be selected as cm or inch.
 
 
-### 12. Write the Program
+ 12. Write the Program
 ① Drag the instruction block in the **Events** module to the script area.
 ![Img](media/749.png)
 
@@ -845,23 +845,23 @@ This is the ultrasonic sensor instruction block used to measure the distance for
 ![Img](media/762.png)
 
 
-### 13. Test Result
+ 13. Test Result
 Click![Img](media/763.png) to upload the complete program to the kidsuno mainboard and power up, then click![Img](media/764.png) in the serial monitor area to set the baud rate to 9600. 
 Moving your hand in front of the ultrasonic sensor, the distance displayed becomes smaller when we are close to the sensor and larger when we are far away from it.
 ![Img](media/921.png)
 ![Img](media/765.png)
 
 
-### 14. Function: Ultrasonic Sensor Controls the 8*8 Dot Matrix
+ 14. Function: Ultrasonic Sensor Controls the 8*8 Dot Matrix
 ![Img](media/766.png)
 
 
-### 15. Flow Chart 
+ 15. Flow Chart 
 Initialize the 8*8 dot matrix and read the distance value of the ultrasonic sensor. If the distance is greater than 0 and less than 10cm, the 8*8 dot matrix shows a "stop" pattern, otherwise, it displays a "backward" pattern.
 ![Img](media/767.png)
 
 
-### 16. Write the Program
+ 16. Write the Program
 
 ① Find the instruction blocks
 （1）![Img](media/768.png)
@@ -886,12 +886,12 @@ Initialize the 8*8 dot matrix and read the distance value of the ultrasonic sens
 ② Complete Program
 ![Img](media/777.png)
 
-### 17. Test Result
+ 17. Test Result
 Click![Img](media/763.png) to upload the complete program to the kidsuno mainboard and power up. When the ultrasonic sensor detects the object within a range of 0cm to 10cm, the 8*8 dot matrix shows a "Stop" pattern, otherwise, it displays a "backward" pattern.
 ![Img](media/project07.png)
 
 
-### 18. Extended Project
+ 18. Extended Project
 ![Img](media/778.png)
 
 
@@ -903,12 +903,12 @@ The sample code is below：
 
 ![Img](media/811.png)
 
-### 1. Introduction
+ 1. Introduction
 We have learned a host of projects before, can we put them together to make an integrated traffic system？Maybe you can't wait to do it，let’s get started!
 
 The following are the tools we need.
 
-### 2. Components
+ 2. Components
 |![Img](media/KidsunoMainboard.png)|![Img](media/TrafficLightModule.png)|![Img](media/ActiveBuzzer.png)|![Img](media/Photoresistor.png)|![Img](media/WhiteLED.png)|
 | :--: | :--: | :--: | :--: |  :--: |
 |Kidsuno Mainboard×1|Traffic Light Module×1|Active Buzzer×1|Photoresistor×1|White LED×1|
@@ -918,14 +918,14 @@ The following are the tools we need.
 |20cm Connection Wire×4|30cm Connection Wire×3|USB Cable×1|Integrated Traffic System×1 |
 
 
-### 3. Function: Make An Integrated Traffic System
+ 3. Function: Make An Integrated Traffic System
 ![Img](media/812.png)
 
 
-### 4. Installation Steps 
+ 4. Installation Steps 
 Please refer to the following link：https://www.dropbox.com/scl/fo/whacdlki5y44kevau03qa/h?dl=0&rlkey=ogbigsw7lxv8zhkvr1oqhlkmz
 
-### 5. Wiring Diagram
+ 5. Wiring Diagram
 ![Img](media/813.png)
 |Module|Kidsuno Mainboard|Module|Kidsuno Mainboard|
 | :--: | :--: | :--: | :--: |
@@ -943,7 +943,7 @@ Please refer to the following link：https://www.dropbox.com/scl/fo/whacdlki5y44
 | Echo | Echo |
 | Gnd | GND |
 
-### 6. Add the Servo, Ultrasonic Sensor and 8*8 Dot Matrix Instruction Module
+ 6. Add the Servo, Ultrasonic Sensor and 8*8 Dot Matrix Instruction Module
 ![Img](media/814.png)
 <br>
 ![Img](media/815.png)
@@ -962,13 +962,13 @@ Add **Matrix 8*8 IIC** Display
 
 ![Img](media/819.png)
 
-### 7. Flow Chart
+ 7. Flow Chart
 ![Img](media/820.png)
 
 
-### 8. Write the Program
+ 8. Write the Program
 ![Img](media/821.png)
 
-### 9. Test Result
+ 9. Test Result
 Click![Img](media/822.png) to upload the complete program to the kidsuno mainboard and power up. Then the effect of the intelligent integrate traffic system will appear.
 ![Img](media/project08.png)

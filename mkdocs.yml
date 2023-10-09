@@ -97,5 +97,6 @@ nav:
     - realtime mode: realtime.md
     - upload mode: upload.md
   - Tutorial:
+    - Inventor Kit: starter/Project.md
     - smart traffic: traffic/Project.md
  
