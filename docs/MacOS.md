@@ -17,7 +17,7 @@
 ![Img](./media/ab.png)
 
 6. Open your computer's settings interface, click Privacy & Security, switch the security option to "App Store and identified developers", then click "Open Anyway".
-![Img](./media/abc.png)
+![Img](./media/abc.jpeg)
 
 7. Tap Open.
 ![Img](./media/abcd.png)
