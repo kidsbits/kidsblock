@@ -117,9 +117,13 @@ Here are four methods to create a new Sprite:
 
 ![image-20230530135234001](media/image-20230530135234001.png)
 
-Let's try Method 1: Click ![image-20230530135347823](media/image-20230530135347823.png)to select one from the library. 
+Let's try Method 1: Click  
+![image-20230530135347823](media/image-20230530135347823.png)
+to select one from the library. 
 
-Here we choose Amon: ![image-20230530135430242](media/image-20230530135430242.png), and Amon will show up on the stage!
+Here we choose Amon:  
+![image-20230530135430242](media/image-20230530135430242.png)
+ and Amon will show up on the stage!
 
 ![Img](media/fcab56220c564c25627fd16df66def52.png)
 
@@ -131,7 +135,10 @@ Each Sprite enjoys its own code, which can be copied to others. For how? Just di
 
 ## 1.12 Record
 
-In ![image-20230530120723827](media/image-20230530120723827.png), find ![image-20230530120624915](media/image-20230530120624915.png). 
+In  
+![image-20230530120723827](media/image-20230530120723827.png)
+ find  
+![image-20230530120624915](media/image-20230530120624915.png). 
 
 Click the triangle to select "record...". After recording, it will be automatically displayed in the menu. 
 
@@ -143,7 +150,9 @@ Multiple costumes for every Sprite can be found in ![image-20230530140523384](me
 
 ![image-20230530140428946](media/image-20230530140428946.png)
 
-**Dynamic effect**: Add a ![image-20230530140742187](media/image-20230530140742187.png) in "forever" block as below, and when you execute them, a dynamic effect will be presented! It is so interesting, isn't it?
+**Dynamic effect**: Add a  
+![image-20230530140742187](media/image-20230530140742187.png) 
+in "forever" block as below, and when you execute them, a dynamic effect will be presented! It is so interesting, isn't it?
 
 ![image-20230530141019855](media/image-20230530141019855.png)
 
@@ -164,7 +173,11 @@ The same rhythm is in the same color, so we can set the same part as a module bl
 
 **Programming:** 
 
-In ![image-20230530142609232](media/image-20230530142609232.png), find ![image-20230530142625856](media/image-20230530142625856.png) and make three blocks respectively name them part 1, part 2 and part 3. Among them, compose notes as followings, and we add some beats and instruments.
+In  
+![image-20230530142609232](media/image-20230530142609232.png)
+ find  
+ ![image-20230530142625856](media/image-20230530142625856.png) 
+and make three blocks respectively name them part 1, part 2 and part 3. Among them, compose notes as followings, and we add some beats and instruments.
 
 Click the green flag, music starts to play! 
 
@@ -179,9 +192,19 @@ For instance, a teacher counts the total score of each student's Chinese, Mathem
 
 Based on this example, we write a program to calculate the total score: 
 
-In ![image-20230530143705762](media/image-20230530143705762.png), click ![image-20230530143726558](media/image-20230530143726558.png) to make five variables: name, aggregate score, English score, Teaching score and verbal score.  
+In  
+![image-20230530143705762](media/image-20230530143705762.png)
+, click  
+![image-20230530143726558](media/image-20230530143726558.png) 
+to make five variables: name, aggregate score, English score, Teaching score and verbal score.  
 
-Find ![image-20230530143912592](media/image-20230530143912592.png) and ![image-20230530144006081](media/image-20230530144006081.png) in ![image-20230530143920414](media/image-20230530143920414.png), and connect them as shown below. After execution, click the green flag, and the total score with names will be automatically calculated and output. 
+Find  
+![image-20230530143912592](media/image-20230530143912592.png)
+ and  
+![image-20230530144006081](media/image-20230530144006081.png)
+in  
+![image-20230530143920414](media/image-20230530143920414.png)
+, and connect them as shown below. After execution, click the green flag, and the total score with names will be automatically calculated and output. 
 
 ![Img](media/a3524f33d51d7723156aa0cb3d9c0573.png)
 
