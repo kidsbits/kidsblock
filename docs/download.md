@@ -15,9 +15,6 @@
 
 ---
 
-**Alternate download**
-[GOOGLE](https://drive.google.com/file/d/1OHN789FNeqrVKyFTqTtY3ut0XbRACgX4/view?usp=sharing)
-
 
 
 
