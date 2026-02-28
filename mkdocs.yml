@@ -1,13 +1,13 @@
 # Project information
 site_name: KidsBlock
-site_url: https://KidsBlock.gitee.io/en/
+site_url: https://wiki.kidsbits.cc/projects/KidsBlock/en/latest/
 site_author: KidsBlock
 site_description: >-
   KidsBlock wiki
 
 # Repository
-repo_name: KidsBlock/KidsBlock.github.io
-repo_url: https://github.com/KidsBlock/KidsBlock.github.io/tree/en
+repo_name: KidsBlock
+repo_url: https://github.com/kidsbits/kidsblock
 
 # Configuration
 theme:
